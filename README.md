@@ -87,7 +87,7 @@ However, this restaurant currently has a 4.0 rating.
 
 #### Example 2.
 
-In this example, the model predicted the 4-starred restaurant to have 3.5 star rating. However, the prediction probability of 3.5 and 4.0 are very close.
+In this example, the model correctly predicted the restaurant's 4-star rating. However, the prediction probability of 3.5 and 4.0 are very close.
 ![](https://github.com/wendysjkim/yelp-ratings/blob/master/Images/LimeEx2.png)
 
 ### Conclusion & Next Steps
