@@ -1,6 +1,11 @@
 # Yelp-Help:
 ## Insights into the Manhattan Restaurant Landscape
 
+- [Jupyter Notebook of EDA](https://github.com/wendysjkim/yelp-ratings/blob/master/Yelp_v2.ipynb)
+- [Jupyter Notebook of Modelling](https://github.com/wendysjkim/yelp-ratings/blob/master/yelp_model_v2.ipynb)
+- [Final Model](https://github.com/wendysjkim/yelp-ratings/blob/master/smote_gbt_gs_v2.sav)
+- [Summary of Findings (Presentation)](https://github.com/wendysjkim/yelp-ratings/blob/master/presentation.pdf)
+
 ### Introduction
 According to [NYC Health](https://a816-health.nyc.gov/ABCEatsRestaurants/#/Search), there are approximately 27k restaurants in NYC, of which about 11k (40%) are located in Manhattan.
 In other words, it would take a New Yorker almost 10 years to try every single restaurant in Manhattan, assuming he or she eats out 3 meals everyday and the list of restaurants stay the same. If we consider more realistic scenario where a myriad of restauarnts newly open or close every year, it would be virtually impossible to try out every single restaurants in Manhattan.
@@ -96,7 +101,7 @@ In this example, the model correctly predicted the restaurant's 4-star rating. H
 - Ratings change over time, especially when there are very few reviews.
 - More reviews are helpful -- restaurants could consider free offers or promotions to encourage users to post reviews.
 - Restaurant names don't necessarily have to be short or easy to remember.
-- List two categories on yelp (for exmaple, "Brunch, American").
+- List two categories on yelp (for example, "Brunch, American").
 - Consumers care about value per dollar.
 - The neighborhood variable could be improved to be based on exact coordinates, rather than distance from the center of searched neighborhood. 
 - More feature engineering that captures meaningful information from the entire sample (instead of specific categories that only applies to the minority)
